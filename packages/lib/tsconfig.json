@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2020.string", "DOM"],
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES2018",
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "outDir": "./build",
+    "baseUrl": "./",
+    "incremental": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.json",
+    "src/**/*.mjml"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
+}
